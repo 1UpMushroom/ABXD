@@ -16,14 +16,14 @@
 }
 
 .userDropdownContainer {
-	float: right;
+	float: left;
 	line-height: 24px;
-	text-align: right;
+	text-align: left;
 }
 
 .userMenu {
 	background: #202020;
-	text-align: left;
+	text-align: right;
 	margin: 0px;
 	margin-bottom: -1000%; /* The hax, it burns... */
 	z-index: 999;
@@ -47,5 +47,5 @@
 
 .nOnlineUsers > span {
 	display: block;
-	text-align: right;
+	text-align: left;
 }
