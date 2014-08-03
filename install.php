@@ -43,17 +43,14 @@
 					<div class="page" id="page1">
 						<h3>Welcome to ABXD</h3>
 						<p>
-							Welcome to the installer for ABXD.
-							We've done a few changes in 3.0 to make using ABXD even better, including:
-							<ul>
-								<li>Large codebase cleanups &mdash; the board should now work better than ever!</li>
-								<li>A new, flexible permissions system that lets you define user groups or per-user permissions, such as forum access.</li>
-								<li>Easier theme installation for administrators</li>
-								<li>[ devs add stuff here ]</li>
-							</ul>
+							Welcome to the AnemonBoard installer!
+							This is a board software based on ABXD.
+							Not much is different, though.
+						        This version is 1.0 
+						
 						<p>
-							Thanks for using ABXD!<br />
-							- The ABXD developers
+							Thanks for using AnemonBoard!<br />
+							- SolarBlitz/1UpMushroom
 					</div>
 					<div class="page" id="page2">
 						<div class="install-only sql-configured">
@@ -67,11 +64,11 @@
 							<h3>
 								SQL setup
 							</h3>
-							<p>Let's get going. Enter the SQL credentials for the SQL server you want to connect to and click "Check connection" to make sure it works.</p>
+							<p>Let's get gstarted on your board installation... Enter the SQL info for the SQL server you want to connect to and click "Check connection" to make sure it works.</p>
 							<table style="width: 50%;margin-left:auto;margin-right:auto;margin-top:50px; margin-bottom:50px;" class="outline margin">
 								<tr class="header1">
 									<th colspan="2">
-										SQL credentials
+										SQL info
 									</th>
 								</tr>
 								<tr class="cell0">
