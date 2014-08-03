@@ -6,11 +6,11 @@ if($loguserid)
 	$userMenu->add(new PipeMenuHtmlEntry(userLink($loguser)));
 
 	if(isAllowed("editProfile"))
-		$userMenu->add(new PipeMenuLinkEntry(__("Edit profile"), "editprofile", "", "", "pencil"));
+		$userMenu->add(new PipeMenuLinkEntry(__("Edit User Profile"), "editprofile", "", "", "pencil"));
 	if(isAllowed("viewPM"))
-		$userMenu->add(new PipeMenuLinkEntry(__("Private messages"), "private", "", "", "envelope"));
+		$userMenu->add(new PipeMenuLinkEntry(__("View Private Messages"), "private", "", "", "envelope"));
 	if(isAllowed("editMoods"))
-		$userMenu->add(new PipeMenuLinkEntry(__("Mood avatars"), "editavatars", "", "", "picture"));
+		$userMenu->add(new PipeMenuLinkEntry(__("Edit Mood avatars"), "editavatars", "", "", "picture"));
 
 	$bucket = "bottomMenu"; include("./lib/pluginloader.php");
 
