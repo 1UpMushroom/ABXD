@@ -7,9 +7,9 @@ if($ipban['date'])
 				gmdate("M jS Y, G:i:s",$ipban['date']),
 				TimeUnits($ipban['date']-time()));
 else
-	print __("You have been <strong>permanently</strong> banned from this board");
+	print __("You have been banned forever from this board.");
 print "<br />";
-print __("Attempting to get around this in any way will result in worse things.");
+print __("Don't even think about getting around this, as that will result in way worse things.");
 print "<br />";
 print "<br />";
 print "<b>".__("Reason")."</b>: ".htmlspecialchars($ipban['reason']);
